@@ -1,0 +1,16 @@
+{
+  "name": "cleanlab-tlm-js",
+  "version": "0.1.0",
+  "description": "JavaScript wrapper for Cleanlab Trusted Language Model API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
