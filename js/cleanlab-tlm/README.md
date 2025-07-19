@@ -18,7 +18,7 @@ const tlm = new TLMClient({ apiKey: process.env.CLEANLAB_API_KEY! });
 
 const result = await tlm.chat({
   messages: [
-    { role: 'user', content: 'How do I brew coffee?' }
+    { role: 'user', content: 'Is 9.11 less than 9.9' }
   ]
 });
 
