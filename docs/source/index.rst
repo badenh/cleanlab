@@ -201,6 +201,7 @@ Link to Cleanlab Studio docs: `help.cleanlab.ai <https://help.cleanlab.ai/>`_
 
    Datalab issue types <cleanlab/datalab/guide/index>
    How to contribute <https://github.com/cleanlab/cleanlab/blob/master/CONTRIBUTING.md>
+   Trusted Language Model JS Quickstart <tlm_js_quickstart>
 
 .. toctree::
    :caption: Links
