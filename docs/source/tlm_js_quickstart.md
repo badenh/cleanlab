@@ -11,7 +11,7 @@ import { TLMClient } from 'cleanlab-tlm-js';
 
 const tlm = new TLMClient({ apiKey: 'YOUR_API_KEY' });
 const res = await tlm.chat({
-  messages: [{ role: 'user', content: 'Tell me a joke' }]
+  messages: [{ role: 'user', content: 'Is 9.11 less than 9.9' }]
 });
 
 console.log(res.response);
