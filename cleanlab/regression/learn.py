@@ -685,9 +685,10 @@ class CleanLearning(BaseEstimator):
             in_sample_idx = sorted_index
         else:
             if sorted_index is None:
-                # TODO: better error message
                 raise ValueError(
-                    "You need to pass in the index sorted by prediction quality to use with k"
+                    "sorted_index must be provided when k > 0. "
+                    "sorted_index should be an array of example indices sorted by their residuals "
+                    "in ascending order. You can obtain it from a prior call to find_label_issues()."
                 )
             num_to_drop = math.ceil(len(sorted_index) * k)
             in_sample_idx = sorted_index[:-num_to_drop]
