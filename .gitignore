@@ -144,6 +144,8 @@ cifar*
 profile_default/
 ipython_config.py
 __pypackages__/
+node_modules/
+js/cleanlab-tlm/node_modules/
 
 
 # Data files
@@ -156,4 +158,3 @@ __pypackages__/
 **.rar
 **.zarr
 **.npy
-
